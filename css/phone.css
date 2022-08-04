@@ -1,0 +1,182 @@
+@media screen and (max-width: 1200px){
+  .cont{
+    width: 90%;
+  }
+  #Footer{
+    display: none;
+  }
+  h1{
+    color: #F0FFF0;
+    font-size: 60px;
+    margin: 40px 0;
+    text-align: center;
+    font-weight: bold;
+    position: static;
+    transform: translateX(0);
+    white-space: normal;
+  }
+  #Hello h2{
+    margin: 20px 0;
+    line-height: 40px;
+    text-align: center;
+    position: static;
+    transform: translateX(0);
+    white-space: normal;
+  }
+  #Hello{
+    height: auto;
+  }
+
+  #Sheme{
+    background-attachment: scroll;
+    min-height: auto;
+  }
+  #Sheme_icons{
+    width: 209px;
+    float: left;
+    margin: 0;
+  }
+  .Sheme_icon{
+    margin: 30px 0;
+    width: 209px;
+  }
+  .apple-1{
+    left: 56%;
+  }
+  .apple-2{
+    right: 56%;
+  }
+  .apple-3{
+    left: 56%;
+  }
+  .apple-4{
+    right: 56%;
+  }
+  .apple-5{
+    left: 56%;
+  }
+  .apple-6{
+    right: 56%;
+  }
+  .apple-7{
+    left: 56%;
+  }
+  .video {
+    width: 100%;
+    height: 360px;
+}
+}
+
+.apple-2-phone, .apple-4-phone, .apple-6-phone{
+  display: none;
+}
+
+@media screen and (max-width: 720px){
+  #Hello{
+    background-attachment: scroll;
+  }
+  #Modal_cont{
+    height: 300px;
+  }
+  #kontakty_map_cont, #kontakty_info_cont{
+    width: 100%;
+    float: right;
+    height: 100%;
+    margin-top: 70px;
+  }
+  .kontakty_el{
+    margin-left: 0;
+    text-align: center;
+  }
+  .kontakty_qr{
+    display: none;
+  }
+  #line{
+    left: 10%;
+    height: 770px;
+  }
+  .apple {
+    line-height: 24px;
+    left: 20%;
+  }
+  .apple_phone{
+    line-height: 24px;
+    left: 20%;
+  }
+  .apple img, .apple_phone img{
+    width: 200px;
+    height: 100px;
+  }
+  .apple h2, .apple_phone h2{
+    margin-bottom: 15px;
+  }
+  .apple-2, .apple-4, .apple-6{
+    display: none;
+  }
+  .apple-2-phone, .apple-4-phone, .apple-6-phone{
+    text-align: left;
+    display: block;
+    right: 0;
+  }
+  .apple-2-phone{
+    top: 228px;
+  }
+  .apple-3{
+    top: 379px;
+  }
+  .apple-4-phone{
+    top: 528px;
+  }
+  .apple-5{
+    top: 679px;
+  }
+  .apple-6-phone{
+    top: 828px;
+  }
+  .videoTitle{
+    font-size: 35px;
+  }
+  .video {
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+
+@media screen and (max-width: 576px){
+  .video {
+    width: 100%;
+    height: 180px;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .video {
+    width: 100%;
+    height: 180px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .country {
+    width: 156px;
+    height: 150px;
+  }
+
+  .country img {
+    width: 100%;
+    height: 124px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .country {
+    width: 130px;
+    height: 150px;
+  }
+}

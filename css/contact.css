@@ -1,0 +1,123 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700');
+
+body{
+  background: #F0FFF0;
+  font-family: 'Oswald';
+}
+
+body *{
+  color: #272727;
+}
+
+a{
+  text-decoration: none;
+  color: #272727;
+}
+
+#header_links li:nth-child(3) a{
+  color: #ffaa00;
+}
+
+#Main{
+  margin-top: 74px;
+}
+
+#Hello{
+  height: 400px;
+  background-image: url("../img/main.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.used{
+  color: #ffaa00;
+}
+
+h1{
+  color: white;
+  font-size: 82px;
+  white-space: nowrap;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+}
+
+#Hello h2{
+  font-size: 30px;
+  color: #ffaa00;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  transform: translateX(-50%);
+}
+
+.Block_title{
+  text-align: center;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+  position: relative;
+  padding: 35px 0;
+}
+
+.Block_title::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translateX(-50%);
+  width: 45px;
+  height: 6px;
+  background: #ffaa00;
+  border-radius: 2px;
+}
+
+.cont{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+#Contacts{
+  display: none;
+}
+
+#kontakty{
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+#kontakty_map_cont, #kontakty_info_cont{
+  width: 50%;
+  float: right;
+  height: 100%;
+  margin-top: 70px;
+}
+
+#kontakty_map{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.kontakty_el{
+  overflow: hidden;
+  margin: 20px 0 20px 50px;
+}
+
+.kontakty_el span{
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.kontakty_el p{
+  line-height: 36px;
+  margin: 15px 0;
+  font-size: 24px;
+  font-weight: 200;
+}
