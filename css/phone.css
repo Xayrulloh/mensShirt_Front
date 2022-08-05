@@ -74,7 +74,43 @@
   .video {
     width: 100%;
     height: 360px;
-}
+  }
+  #Zahvat_1{
+    background-size: auto;
+    height: auto;
+  }
+  .Zahvat_title{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  #Zahvat_form{
+    max-width: 330px;
+    margin-bottom: 30px;
+  }
+
+  #Zahvat_form select{
+    width: 288px;
+    margin: 10px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #Zahvat_form input{
+    width: 256px;
+    margin: 10px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #Zahvat_button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+  }
 }
 
 .apple-2-phone, .apple-4-phone, .apple-6-phone{
@@ -165,6 +201,18 @@
     margin-bottom: 10px;
     width: 100%;
     height: 200px;
+  }
+  #about_text{
+    font-size: 22px;
+    line-height: 38px;
+    text-align: justify;
+  }
+  #About_icons{
+    width: 160px;
+  }
+
+  .About_icon{
+    margin: 30px 0;
   }
 }
 
