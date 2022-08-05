@@ -77,7 +77,7 @@ Contacts_button.onclick = async function(event){
     let response = await requestJSON('/sendEmail', 'POST', {
       username: emailName.value,
       phone: emailPhone.value,
-      message: emailMessage
+      message: emailMessage.value
     })
     if (response?.status == 200) {
       Correct.style.background = '#3ab51f'
