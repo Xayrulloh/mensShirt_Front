@@ -1,4 +1,4 @@
-const backendApi = 'http://localhost:5000'
+const backendApi = 'https://mensshirt.herokuapp.com'
 
 async function requestJSON(route, method, body) {
     try {
@@ -9,6 +9,7 @@ async function requestJSON(route, method, body) {
             },
             body: body ? JSON.stringify(body): null
         })
+        console.log(response);
 
         return await response.json()
     } catch (error) {
