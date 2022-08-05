@@ -9,7 +9,6 @@ async function requestJSON(route, method, body) {
             },
             body: body ? JSON.stringify(body): null
         })
-        console.log(response);
 
         return await response.json()
     } catch (error) {
