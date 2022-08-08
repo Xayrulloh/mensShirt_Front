@@ -86,9 +86,9 @@ h1{
 
 #History{
   position: relative;
-  height: 1140px;
+  height: 990px;
+  top: -40px;
 }
-
 #line{
   position: absolute;
   left: 50%;
@@ -236,7 +236,7 @@ h1{
 
 .country {
   width: 186px;
-  height: 150px;
+  height: 155px;
   margin-top: 20px;
   margin-bottom: 5px;
   text-align: center;

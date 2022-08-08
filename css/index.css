@@ -281,3 +281,150 @@ h1{
   text-align: justify;
   padding: 20px 0;
 }
+
+#History{
+  position: relative;
+  height: 990px;
+  top: -40px;
+}
+
+
+#line{
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  width: 4px;
+  height: 770px;
+  background: #605f60;
+  transform: translateX(-50%);
+}
+
+.dot{
+  left: -10px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #605f60;
+  background: #F0FFF0;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out all;
+}
+
+.dot-1{
+  top: 0;
+}
+
+.dot-2{
+  top: 150px;
+}
+
+.dot-3{
+  top: 300px;
+}
+
+.dot-4{
+  top: 450px;
+}
+
+.dot-5{
+  top: 600px;
+}
+
+.dot-6{
+  top: 750px;
+}
+
+.dot-7{
+  bottom: 0px;
+}
+
+.apple{
+  position: absolute;
+}
+
+.apple_phone{
+  position: absolute;
+}
+
+.apple-1{
+  top: 80px;
+  left: 635px;
+}
+
+.apple-2, .apple-2-phone{
+  top: 233px;
+  right: 635px;
+  text-align: right;
+}
+
+.apple-3{
+  top: 383px;
+  left: 635px;
+}
+
+.apple-4, .apple-4-phone{
+  top: 533px;
+  right: 635px;
+  text-align: right;
+}
+
+.apple-5{
+  top: 683px;
+  left: 635px;
+}
+
+.apple-6, .apple-6-phone{
+  top: 833px;
+  right: 635px;
+  text-align: right;
+}
+
+.apple-7{
+  top: 990px;
+  left: 635px;
+}
+
+.apple h2, .apple_phone h2{
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.apple img, .apple_phone img{
+  width: 267px;
+  height: 200px;
+}
+
+.video {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 1200px;
+  height: 600px;
+}
+
+.country {
+  width: 186px;
+  height: 155px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.country h2 {
+  padding-top: 3px;
+  font-size: 20px;
+}
+
+.country-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.country img {
+  width: 100%;
+  height: 126px;
+  border-radius: 5px;
+}

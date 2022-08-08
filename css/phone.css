@@ -214,6 +214,10 @@
   .About_icon{
     margin: 30px 0;
   }
+  #History{
+    height: 910px;
+    top: -60px;
+  }
 }
 
 
@@ -225,18 +229,10 @@
 
 }
 
-@media screen and (max-width: 400px){
-  .video {
-    width: 100%;
-    height: 180px;
-  }
-
-}
-
 @media screen and (max-width: 450px) {
   .country {
     width: 156px;
-    height: 150px;
+    height: 155px;
   }
 
   .country img {
@@ -245,9 +241,24 @@
   }
 }
 
+@media screen and (max-width: 400px){
+  .video {
+    width: 100%;
+    height: 180px;
+  }
+
+}
+
+
 @media screen and (max-width: 370px) {
   .country {
     width: 130px;
-    height: 150px;
+    height: 155px;
+  }
+  .videoTitle{
+    font-size: 30px;
+  }
+  .Block_title{
+    font-size: 30px;
   }
 }
