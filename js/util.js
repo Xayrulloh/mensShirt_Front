@@ -1,4 +1,4 @@
-const backendApi = 'https://mensshirt-xayrulloh.koyeb.app/'
+const backendApi = 'https://mensshirt-xayrulloh.koyeb.app'
 
 async function requestJSON(route, method, body) {
     try {
