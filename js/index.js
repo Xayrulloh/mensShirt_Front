@@ -45,10 +45,6 @@ function CorrectFunction(){
 };
 
 modal_button.onclick = async function(event){
-  if (inputName.value.length < 3 || inputName.value.length > 30 || inputName.value.split(' ').length > 2 || !/^[+]998([012345789][012345789]|6[125679]|7[01234569])[0-9]{7}$/.test(inputPhone.value)) {
-    Correct.innerText = 'Неправильный ввод'
-    Correct.style.background = 'red'
-  } else {
     let response = await requestJSON('/sendPhone', 'POST', {
       username: inputName.value,
       phone: inputPhone.value
@@ -61,19 +57,13 @@ modal_button.onclick = async function(event){
       Correct.innerText = 'Неправильный ввод'
       Correct.style.background = 'red'
     }
-  }
   
   CorrectFunction()
   jQuery('.input_cleaer').val('');
   jQuery('#Modal').fadeOut();
 }
 
-Contacts_button.onclick = async function(event){
-  if (emailName.value.length < 3 || emailName.value.length > 30 || emailName.value.split(' ').length > 2 || !/^[+]998([012345789][012345789]|6[125679]|7[01234569])[0-9]{7}$/.test(emailPhone.value) || emailMessage.value.length < 10) {
-    Correct.innerText = 'Неправильный ввод'
-    Correct.style.background = 'red'
-  } else {
-    
+Contacts_button.onclick = async function(event){   
     let response = await requestJSON('/sendEmail', 'POST', {
       username: emailName.value,
       phone: emailPhone.value,
@@ -86,7 +76,6 @@ Contacts_button.onclick = async function(event){
       Correct.innerText = 'Неправильный ввод'
       Correct.style.background = 'red'
     }
-  }
   
   CorrectFunction()
   jQuery('.input_cleaer').val('');
@@ -94,10 +83,6 @@ Contacts_button.onclick = async function(event){
 }
 
 Zahvat_button.onclick = async function(event){
-  if (!/^[+]998([012345789][012345789]|6[125679]|7[01234569])[0-9]{7}$/.test(zahvatPhone.value) || !['Пошить', 'Лекала', 'Принт', 'Вышивка', 'Консультация'].includes(option.value)) {
-    Correct.innerText = 'Неправильный ввод'
-    Correct.style.background = 'red'
-  } else {
     let response = await requestJSON('/sendMessage', 'POST', {
       message: option.value,
       phone: zahvatPhone.value
@@ -110,7 +95,6 @@ Zahvat_button.onclick = async function(event){
       Correct.innerText = 'Неправильный ввод'
       Correct.style.background = 'red'
     }
-  }
   
   CorrectFunction()
   jQuery('.input_cleaer').val('');
