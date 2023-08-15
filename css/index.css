@@ -1,22 +1,21 @@
 @import url('reset.css');
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700');
 
-body{
-  background: #F0FFF0;
+body {
+  background: #f0fff0;
   font-family: 'Oswald', sans-serif;
 }
 
-body *{
+body * {
   color: #272727;
 }
 
-a{
+a {
   text-decoration: none;
   color: #272727;
 }
 
-
-.cont{
+.cont {
   width: 1200px;
   height: 100%;
   margin: 0 auto;
@@ -24,28 +23,27 @@ a{
   position: relative;
 }
 
-#header_links li:nth-child(1) a{
+#header_links li:nth-child(1) a {
   color: #ffaa00;
 }
 
-
-#Main{
+#Main {
   margin-top: 74px;
 }
 
-#Hello{
+#Hello {
   height: 600px;
-  background-image: url("../img/main.jpg");
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/mensshirt-4c4b9.appspot.com/o/main.jpg?alt=media&token=638e4fad-e44c-4703-a2a1-7c4112726070');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.used{
+.used {
   color: #ffaa00;
 }
 
-h1{
+h1 {
   color: white;
   font-size: 82px;
   white-space: nowrap;
@@ -56,7 +54,7 @@ h1{
   transform: translateX(-50%);
 }
 
-#Hello h2{
+#Hello h2 {
   font-size: 30px;
   color: #ffaa00;
   white-space: nowrap;
@@ -66,30 +64,30 @@ h1{
   transform: translateX(-50%);
 }
 
-#Hello_icons{
+#Hello_icons {
   position: absolute;
   bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.Hello_icon{
+.Hello_icon {
   margin: 0 30px;
-  float: left
+  float: left;
 }
 
-.Hello_icon img{
+.Hello_icon img {
   margin: 0 0 15px 50%;
   transform: translateX(-50%);
 }
 
-.Hello_icon p{
+.Hello_icon p {
   font-size: 20px;
   color: white;
   text-align: center;
 }
 
-.Block_title{
+.Block_title {
   text-align: center;
   font-size: 42px;
   line-height: 52px;
@@ -98,7 +96,7 @@ h1{
   padding: 35px 0;
 }
 
-.Block_title::after{
+.Block_title::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -110,14 +108,14 @@ h1{
   border-radius: 2px;
 }
 
-#about_text{
+#about_text {
   margin: 30px 0;
   font-size: 24px;
   line-height: 42px;
   text-align: center;
 }
 
-#About_icons{
+#About_icons {
   overflow: hidden;
   position: relative;
   float: left;
@@ -125,46 +123,47 @@ h1{
   transform: translateX(-50%);
 }
 
-.About_icon{
+.About_icon {
   margin: 30px 30px;
   width: 160px;
   text-align: center;
   float: left;
 }
 
-.About_icon p{
+.About_icon p {
   font-size: 52px;
   margin-bottom: 10px;
   color: #ffaa00;
 }
 
-.About_icon span{
+.About_icon span {
   font-size: 22px;
 }
 
-#Zahvat_1{
-  background: url('../img/z-1.jpg');
+#Zahvat_1 {
+  background: url('https://firebasestorage.googleapis.com/v0/b/mensshirt-4c4b9.appspot.com/o/z-1.jpg?alt=media&token=49fe9aff-122b-46fb-8176-6c248932d647');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 310px;
 }
 
-.Zahvat_title{
+.Zahvat_title {
   text-align: center;
   font-size: 42px;
   color: white;
   padding: 50px 0;
 }
 
-#Zahvat_form{
+#Zahvat_form {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   float: left;
 }
 
-#Zahvat_form input, #Zahvat_form select{
+#Zahvat_form input,
+#Zahvat_form select {
   background: none;
   border: 1px solid white;
   outline: none;
@@ -179,11 +178,11 @@ h1{
   margin-right: 15px;
 }
 
-#Zahvat_form select{
+#Zahvat_form select {
   height: 42px;
 }
 
-#Zahvat_button{
+#Zahvat_button {
   cursor: pointer;
   background: none;
   border: 1px solid white;
@@ -198,12 +197,12 @@ h1{
   transition: 0.1s ease-in-out;
 }
 
-#Zahvat_button:hover{
+#Zahvat_button:hover {
   color: #ffaa00;
   border: 1px solid #ffaa00;
 }
 
-#Zahvat_conf{
+#Zahvat_conf {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -215,26 +214,26 @@ h1{
   font-size: 14px;
 }
 
-#Zahvat_conf a{
+#Zahvat_conf a {
   color: #a7a7a7;
 }
 
-#Sheme{
+#Sheme {
   min-height: 600px;
   background-size: cover;
   background-attachment: fixed;
   color: #272727;
 }
 
-#Sheme a{
+#Sheme a {
   color: #272727;
 }
 
-#Sheme .Block_title{
+#Sheme .Block_title {
   color: #272727;
 }
 
-#Sheme_icons{
+#Sheme_icons {
   position: relative;
   left: 50%;
   margin-top: 100px;
@@ -242,19 +241,19 @@ h1{
   float: left;
 }
 
-.Sheme_icon{
+.Sheme_icon {
   margin: 0 30px;
   text-align: center;
   line-height: 30px;
   float: left;
 }
 
-.Sheme_icon p{
+.Sheme_icon p {
   font-size: 20px;
   color: #272727;
 }
 
-#Sheme_button{
+#Sheme_button {
   position: relative;
   left: 50%;
   cursor: pointer;
@@ -269,12 +268,12 @@ h1{
   transition: 0.2s ease-in-out all;
 }
 
-#Sheme_button:hover{
+#Sheme_button:hover {
   color: #ffaa00;
   border: 1px solid #ffaa00;
 }
 
-.text{
+.text {
   font-size: 22px;
   line-height: 36px;
   font-weight: 300;
@@ -282,14 +281,13 @@ h1{
   padding: 20px 0;
 }
 
-#History{
+#History {
   position: relative;
   height: 990px;
   top: -40px;
 }
 
-
-#line{
+#line {
   position: absolute;
   left: 50%;
   top: 80px;
@@ -299,97 +297,102 @@ h1{
   transform: translateX(-50%);
 }
 
-.dot{
+.dot {
   left: -10px;
   position: absolute;
   width: 18px;
   height: 18px;
   border: 3px solid #605f60;
-  background: #F0FFF0;
+  background: #f0fff0;
   border-radius: 50%;
   transition: 0.3s ease-in-out all;
 }
 
-.dot-1{
+.dot-1 {
   top: 0;
 }
 
-.dot-2{
+.dot-2 {
   top: 150px;
 }
 
-.dot-3{
+.dot-3 {
   top: 300px;
 }
 
-.dot-4{
+.dot-4 {
   top: 450px;
 }
 
-.dot-5{
+.dot-5 {
   top: 600px;
 }
 
-.dot-6{
+.dot-6 {
   top: 750px;
 }
 
-.dot-7{
+.dot-7 {
   bottom: 0px;
 }
 
-.apple{
+.apple {
   position: absolute;
 }
 
-.apple_phone{
+.apple_phone {
   position: absolute;
 }
 
-.apple-1{
+.apple-1 {
   top: 80px;
   left: 635px;
 }
 
-.apple-2, .apple-2-phone{
+.apple-2,
+.apple-2-phone {
   top: 233px;
   right: 635px;
   text-align: right;
 }
 
-.apple-3{
+.apple-3 {
   top: 383px;
   left: 635px;
 }
 
-.apple-4, .apple-4-phone{
+.apple-4,
+.apple-4-phone {
   top: 533px;
   right: 635px;
   text-align: right;
 }
 
-.apple-5{
+.apple-5 {
   top: 683px;
   left: 635px;
 }
 
-.apple-6, .apple-6-phone{
+.apple-6,
+.apple-6-phone {
   top: 833px;
   right: 635px;
   text-align: right;
 }
 
-.apple-7{
+.apple-7 {
   top: 990px;
   left: 635px;
 }
 
-.apple h2, .apple_phone h2{
+.apple h2,
+.apple_phone h2 {
   font-size: 18px;
   margin-bottom: 24px;
 }
 
-.apple img, .apple_phone img{
+.apple img,
+.apple_phone img {
   width: 267px;
   height: 200px;
 }
