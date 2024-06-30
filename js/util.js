@@ -2,7 +2,7 @@
 const sendMessage = async(username, phone, message) => {
 
   const url = 'https://api.telegram.org/bot7257071849:AAFHpwPl7U2f8McbFExHJh8S8Lzjp34JgVI/sendMessage'
-  const text = `${username ? `Name: ${username}\n` : ''}${phone ? `Phone: ${phone}\n` : ''}${message ? `Message: ${message}` : ''}`
+  const text = `MENSSHIRT\n\n${username ? `Name: ${username}\n` : ''}${phone ? `Phone: ${phone}\n` : ''}${message ? `Message: ${message}` : ''}`
 
   const request = {
       chat_id: 634114608,
