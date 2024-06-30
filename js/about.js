@@ -45,41 +45,36 @@ function CorrectFunction(){
 };
 
 modal_button.onclick = async function(event){
-    let response = await requestJSON('/sendPhone', 'POST', {
-      username: inputName.value,
-      phone: inputPhone.value
-    })
-    
-    if (response?.status == 200) {
-      Correct.style.background = '#3ab51f'
-      Correct.innerText = 'Ваше сообщение отправлено'
-    } else {
-      Correct.innerText = 'Неправильный ввод'
-      Correct.style.background = 'red'
-    }
-  
-  CorrectFunction()
-  jQuery('.input_cleaer').val('');
-  jQuery('#Modal').fadeOut();
+
+  const response = await sendMessage(inputName.value, inputPhone.value)
+
+  if (response?.status == 200) {
+    Correct.style.background = '#3ab51f'
+    Correct.innerText = 'Ваше сообщение отправлено'
+  } else {
+    Correct.innerText = 'Неправильный ввод'
+    Correct.style.background = 'red'
+  }
+
+CorrectFunction()
+jQuery('.input_cleaer').val('');
+jQuery('#Modal').fadeOut();
 }
 
 Contacts_button.onclick = async function(event){
-    let response = await requestJSON('/sendEmail', 'POST', {
-      username: emailName.value,
-      phone: emailPhone.value,
-      message: emailMessage.value
-    })
-    if (response.status == 200) {
-      Correct.style.background = '#3ab51f'
-      Correct.innerText = 'Ваше сообщение отправлено'
-    } else {
-      Correct.innerText = 'Неправильный ввод'
-      Correct.style.background = 'red'
-    }
-  
-  CorrectFunction()
-  jQuery('.input_cleaer').val('');
-  jQuery('#Modal').fadeOut();
+  const response = await sendMessage(emailName.value, emailPhone.value, emailMessage.value)
+
+  if (response?.status == 200) {
+    Correct.style.background = '#3ab51f'
+    Correct.innerText = 'Ваше сообщение отправлено'
+  } else {
+    Correct.innerText = 'Неправильный ввод'
+    Correct.style.background = 'red'
+  }
+
+CorrectFunction()
+jQuery('.input_cleaer').val('');
+jQuery('#Modal').fadeOut();
 }
 
 /*/FORM*/

@@ -45,11 +45,9 @@ function CorrectFunction(){
 };
 
 modal_button.onclick = async function(event){
-    let response = await requestJSON('/sendPhone', 'POST', {
-      username: inputName.value,
-      phone: inputPhone.value
-    })
-    
+
+    const response = await sendMessage(inputName.value, inputPhone.value)
+
     if (response?.status == 200) {
       Correct.style.background = '#3ab51f'
       Correct.innerText = 'Ваше сообщение отправлено'
